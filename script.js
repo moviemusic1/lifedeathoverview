@@ -11,6 +11,9 @@ var birth_interval = setInterval(function() {
 	alife += 1;
 	births_num += 1;
 	update();
+	if(alife >= 100 && alife < 1000) {
+		h1.style.fontSize = "9em";
+	}
 	if(alife >= 1000 && alife < 10000) {
 		h1.style.fontSize = "7em";
 	}
