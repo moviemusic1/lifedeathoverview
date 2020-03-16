@@ -10,7 +10,13 @@ var birth_interval = setInterval(function() {
 	event_p.classList.add('birth');
 	alife += 1;
 	births_num += 1;
-	update()
+	update();
+	if(alife >= 1000 && alife < 10000) {
+		h1.style.fontSize = "7em";
+	}
+	if(alife >= 10000) {
+		h1.style.fontSize = "5em";
+	}
 }, 1/bps * 1000);
 
 var death_interval = setInterval(function() {
