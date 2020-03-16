@@ -10,9 +10,9 @@ html, body {
 }
 
 h1 {
-	font-size: 18em;
+	font-size: 12em;
 	font-weight: bold;
-	line-height: 40px;
+	line-height: 100px;
 }
 
 #love, #love a {
